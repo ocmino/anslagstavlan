@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: rgb(211, 222, 243);
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
 }
 
 .nav {
-    background-color: #333;
+    background-color: rgb(121, 145, 189);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -49,4 +50,7 @@ body {
 .nav li:hover {
     background-color: #777;
 }
+
+
+
 
