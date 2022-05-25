@@ -10,6 +10,7 @@ export default function Navbar() {
         <ul>   
             <CustomLink to="/anslagstavla">Anslagstavla</CustomLink>
             <CustomLink to="/about">Om</CustomLink>
+            <CustomLink to="/contact">Kontakta oss</CustomLink>
         </ul>
     </nav>
     )
