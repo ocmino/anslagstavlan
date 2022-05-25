@@ -11,7 +11,7 @@ const theme = {
   }
 };
 
-const Button = styled.button`
+const ButtonSend = styled.button`
   background-color: ${(props) => theme[props.theme].default};
   color: white;
   padding: 5px 15px;
@@ -31,7 +31,7 @@ const Button = styled.button`
   }
 `;
 
-Button.defaultProps = {
+ButtonSend.defaultProps = {
   theme: "blue"
 };
 
@@ -44,7 +44,7 @@ export default function App() {
   return (
     <>
       <div>
-        <Button onClick={clickMe}>Skicka</Button> 
+        <ButtonSend onClick={clickMe}>Skicka</ButtonSend> 
       </div>
     </>
   );
